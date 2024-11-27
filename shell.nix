@@ -7,6 +7,6 @@
 pkgs.mkShell {
   nativeBuildInputs = with pkgs; [
     gradle
-    tldr
+    tlrc
   ];
 }
