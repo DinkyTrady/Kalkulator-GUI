@@ -1,3 +1,5 @@
+> **WARNING** Jangan edit file `shell.nix` dan `merge`
+
 # Aplikasi java gui Ticket parkir
 
 ## Cara clone repo
@@ -38,6 +40,7 @@ Buka repository ProjekPemDas pilih `pull request` pilih `create pull request`
 ## merge "nama branch kalian dengan main branch"
 
 sebagai contoh branch randy akan lakuin merge
+
 ```bash
 # pindah ke branch main
 git switch main

@@ -4,9 +4,15 @@
   pkgs ? import <nixpkgs> { },
 }:
 
-pkgs.mkShell {
-  nativeBuildInputs = with pkgs; [
+pkgs.mkShellNoCC {
+  packages = with pkgs; [
+    cowsay
+    lolcat
     gradle
-    tldr
+    tlrc
   ];
+  shellHook = ''
+    clear
+    echo "Masuk kedalam nix-shell"| cowsay | lolcat
+  '';
 }
