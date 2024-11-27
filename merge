@@ -13,4 +13,5 @@ for branch in "${branches[@]}"; do
   git merge main
 done
 
+git switch main
 echo "Merge selesai"
