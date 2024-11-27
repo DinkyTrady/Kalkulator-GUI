@@ -4,7 +4,7 @@
   pkgs ? import <nixpkgs> { },
 }:
 
-pkgs.mkShell {
+pkgs.mkShellNoCC {
   nativeBuildInputs = with pkgs; [
     gradle
     tlrc
