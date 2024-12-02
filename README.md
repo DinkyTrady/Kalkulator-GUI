@@ -6,10 +6,10 @@
 
 ```sh
 # Clone kedirectory/folder mana aja
-git clone --depth=1 https://github.com/DinkyTrady/ProjekPemDas
+git clone --depth=1 https://github.com/DinkyTrady/Kalkulator-GUI
 
 # Pindah kedirectory/folder tadi misal:
-cd ./ProjekPemDas
+cd ./Kalkulator-GUI
 
 # Lakuin pull biar main branch tetap up-to-date
 git pull origin main
@@ -29,4 +29,4 @@ setelah melakukan edit file dan ingin commit kemudian push
 
 ## Lakukan pull request lewat github
 
-Buka repository ProjekPemDas pilih `pull request` pilih `create pull request`
+Buka repository Kalkulator-GUI pilih `pull request` pilih `create pull request`
