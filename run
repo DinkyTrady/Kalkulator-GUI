@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-javac -d bin src/App.java
-java -cp bin App
+javac -d bin src/Main.java
+java -cp bin Main
